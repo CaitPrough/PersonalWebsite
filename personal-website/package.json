@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://CaitPrough.github.io/PersonalWebsite",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
