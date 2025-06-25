@@ -1,7 +1,10 @@
-.App {
+.app {
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
   color: #333;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .home-page {
@@ -53,4 +56,17 @@ footer {
 .intro, .about {
   padding: 40px 20px;
   text-align: center;
+}
+
+.navbutton {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10px;
+  font-weight: bold;
+  background-color: #d084ff;
+}
+
+.navbutton:hover {
+  opacity: 0.85;
 }

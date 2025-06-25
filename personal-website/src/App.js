@@ -9,10 +9,10 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <nav className = "NavBar">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/" className='navbutton'>Home</Link>
+          <Link to="/about" className='navbutton'>About</Link>
         </nav>
 
         <Routes>
