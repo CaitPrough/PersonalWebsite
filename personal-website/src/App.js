@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 import Home from './Home';
 import About from './About';
@@ -26,8 +27,21 @@ function App() {
           <Route path="/Art" element={<Art />} />
         </Routes>
 
+      <div className="socials">
+        <a href="https://github.com/CaitPrough" target="_blank" rel="noopener noreferrer" className="icon git">
+          <FaGithub size={64} />
+        </a>
+        <a href="https://instagram.com/CaitPrough" target="_blank" rel="noopener noreferrer" className="icon insta">
+          <FaInstagram size={64} />
+        </a>
+        <a href="https://linkedin.com/in/CaitPrough" target="_blank" rel="noopener noreferrer" className="icon in">
+          <FaLinkedin size={64} />
+        </a>
+      </div>
+
       <footer>
         <p>© {new Date().getFullYear()} Cait Prough</p>
+        <p>-.-. .- .. - ....... .--. .-. --- ..- --. ....</p>
       </footer>
 
     </div>

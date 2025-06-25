@@ -63,10 +63,37 @@ footer {
   border-radius: 5px;
   color: white;
   margin-right: 10px;
+  text-decoration: none; /* get rid of underline*/
   font-weight: bold;
   background-color: #d084ff;
 }
 
 .navbutton:hover {
   opacity: 0.85;
+}
+
+body {
+  background-color: #f0f0f0; /* something better here probs */
+  margin: 0;
+  padding: 0;
+}
+
+.socials {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  color: #d084ff; /*doesnt work?*/
+}
+
+.icon.git :hover{
+  color: #000000;
+}
+
+.icon.insta :hover{
+  color: #DD2A7B;
+}
+
+.icon.in :hover{
+  color: #0072b1;
 }

@@ -7,8 +7,8 @@ function Programming() {
       <div className="about-image">
         <img src="" alt="image to go here" /> 
       </div>
-      <div className="title?">
-        <h2>About Me</h2>
+      <div className="about-text">
+        <h2>title?</h2>
         <p>
           text to go here
         </p>
