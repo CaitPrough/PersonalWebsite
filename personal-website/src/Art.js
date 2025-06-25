@@ -4,9 +4,9 @@ import './Art.css';
 function Art() {
   return (
     <div className="art-page">
-        <div className="cmy">
-            <div className="about-image">
-                <img src="" alt="image to go here" /> 
+        <div className="art-container">
+            <div className="art-image">
+                <img src="" alt="mural featuring a checkerboard pattern of black and white patterns, and colored circles" /> 
             </div>
             <div className="about-text">
                 <h2>Ponca City, Oklahoma (2024)</h2>
@@ -23,9 +23,9 @@ function Art() {
             </div>
         </div>
 
-        <div className="cmy">
+        <div className="art-container">
             <div className="about-text">
-                <h2>Edmond, Oklahoma (2024)</h2>
+                <h2>Edmond, Oklahoma (2022)</h2>
                 <p>
                     This piece was created on a fence panel 
                     during Sunny Days Mural Festival (2022) 
@@ -34,17 +34,17 @@ function Art() {
                     arts!
                 </p>
             </div>
-            <div className="about-image">
-                <img src="" alt="image to go here" /> 
+            <div className="art-image">
+                <img src="" alt="an artwork featuring colorful blocks stacked on eachother" /> 
             </div>
         </div>
 
-        <div className="cmy">
-            <div className="about-image">
-                <img src="" alt="image to go here" /> 
+        <div className="art-container">
+            <div className="art-image">
+                <img src="" alt="a black and white checkerboard where circles are impled with color and inverse fill" /> 
             </div>
             <div className="about-text">
-                <h2>Ponca City, Oklahoma (2024)</h2>
+                <h2>Ponca City, Oklahoma (2020)</h2>
                 <p>
                     This piece of art was printed on vinyl 
                     and applied onto a traffic signal box 
@@ -55,9 +55,9 @@ function Art() {
             </div>
         </div>
 
-        <div className="cmy">
+        <div className="art-container">
             <div className="about-text">
-                <h2>Edmond, Oklahoma (2024)</h2>
+                <h2>Edmond, Oklahoma (2019)</h2>
                 <p>
                     In middle school I designed and painted this 
                     mural as a part of my art class. This mural 
@@ -67,17 +67,17 @@ function Art() {
                     is located outside an art classroom.
                 </p>
             </div>
-            <div className="about-image">
-                <img src="" alt="image to go here" /> 
+            <div className="art-image">
+                <img src="" alt="a color wheel of RYB colors in the form of a checkerboard imlied with inverse fill" /> 
             </div> 
         </div>
 
-        <div className="dumpster">
-            <div className="about-image">
-                <img src="" alt="image to go here" /> 
+        <div className="art-container">
+            <div className="art-image">
+                <img src="" alt="a collection of intersecting black lines, that form squares filled with colors mixed based on the other colors nearby" /> 
             </div>
             <div className="about-text">
-                <h2>Oklahoma City, Oklahoma (2024)</h2>
+                <h2>Oklahoma City, Oklahoma (2021)</h2>
                 <p>
                     This piece was created on the side of a 
                     Scissortail Waste Solutions dumpster 
